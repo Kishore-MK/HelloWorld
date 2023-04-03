@@ -1,5 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    printf("Hello World");
+    char msg[20];
+    printf("enter your message: ");
+    fgets(msg,sizeof(msg),stdin);
+    printf("%s", msg);
 }
